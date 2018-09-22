@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Office Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/style.css" />
+    <script src="assets/Javascript/app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    
+    <nav class="navbar navbar-light bg-dark">
+        <span class="navbar-brand mb-0 h1" style="font-family: 'Gamja Flower', cursive; font-size: 30px; color: whitesmoke"><strong>The Office Trivia Game</strong></span>
+    </nav>
+</head>
+<body style="background-color: beige">
+        <img src="assets/Images/theoffice.png" id="picture1" style="width: 780px; height: 425px; margin-top: 3%">
+        <img src="assets/Images/jimpam.jpg" id="picture2" style="width: 780px; height: 425px; margin-top: 3%">
+        <img src="assets/Images/dwight.jpg" id="picture3" style="width: 780px; height: 425px; margin-top: 3%">
+        <img src="assets/Images/office.jpg" id="picture4" style="width: 780px; height: 425px; margin-top: 3%">
+        <img src="assets/Images/cast.jpg" id="picture5" style="width: 780px; height: 425px; margin-top: 3%">
+    <div class="jumbotron" style="width: 780px; margin-left: 15%; margin-top: 3%;">
+        <h2 id="ask-question1"></h2>
+        <div id="finishcorrect"></div>
+        <div id="finishwrong"></div>
+        <a class="btn btn-primary btn-lg" id ="start1" href="#" role="button">Start</a>
+        <div id="question1">    
+            <div class="form-check1 ml-5">
+                <input class="wrong1" type="radio" name="exampleRadios" class="wronganswerone" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    1
+                </label>
+            </div>
+            <div class="form-check1 ml-5">
+                <input class="correct" type="radio" name="exampleRadios" id="correctanswerone" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    2
+                </label>
+            </div>
+            <div class="form-check1 ml-5">
+                <input class="wrong1" type="radio" name="exampleRadios" class="wronganswerone" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    3
+                </label>
+            </div>
+            <div class="form-check1 ml-5">
+                <input class="wrong1" type="radio" name="exampleRadios" class="wronganswerone" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    4
+                </label>
+            </div>
+        </div>
+        
+        
+        <h2 id="ask-question2"></h2>
+        <div class="form-check2 ml-5">
+            <input class="wrong2" type="radio" name="exampleRadios" class="wronganswertwo" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Kyle
+            </label>
+        </div>
+        <div class="form-check2 ml-5">
+            <input class="wrong2" type="radio" name="exampleRadios" class="wronganswertwo" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Curt
+            </label>
+        </div>
+        <div class="form-check2 ml-5">
+            <input class="wrong2" type="radio" name="exampleRadios" class="wronganswertwo" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Gary
+            </label>
+        </div>
+        <div class="form-check2 ml-5">
+            <input class="correct" type="radio" name="exampleRadios" id="correctanswertwo" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Kurt
+            </label>
+        </div>
+        
+
+
+        <h2 id="ask-question3"></h2>
+        <div class="form-check3 ml-5">
+            <input class="correct" type="radio" name="exampleRadios" id="correctanswerthree" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Pennsylvania
+            </label>
+        </div>
+        <div class="form-check3 ml-5">
+            <input class="wrong3" type="radio" name="exampleRadios" class="wronganswerthree" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                New York
+            </label>
+        </div>
+        <div class="form-check3 ml-5">
+            <input class="wrong3" type="radio" name="exampleRadios" class="wronganswerthree" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Rhode Island
+            </label>
+        </div>
+        <div class="form-check3 ml-5">
+            <input class="wrong3" type="radio" name="exampleRadios" class="wronganswerthree" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                New Jersey 
+            </label>
+        </div>
+        
+
+        <h2 id="ask-question4"></h2>
+        <div class="form-check4 ml-5">
+            <input class="wrong4" type="radio" name="exampleRadios" class="wronganswerfour" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                10
+            </label>
+        </div>
+        <div class="form-check4 ml-5">
+            <input class="correct" type="radio" name="exampleRadios" id="correctanswerfour" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                9
+            </label>
+        </div>
+        <div class="form-check4 ml-5">
+            <input class="wrong4" type="radio" name="exampleRadios" class="wronganswerfour" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                8
+            </label>
+        </div>
+        <div class="form-check4 ml-5">
+            <input class="wrong4" type="radio" name="exampleRadios" class="wronganswerfour" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                7
+            </label>
+        </div>
+    </div>
+    
+    <h2 id="time-left"></h2>
+    <div id="correctcount"></div>
+    <div id="wrongcount"></div>
+    
+    
+</body>
+</html>

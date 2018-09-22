@@ -1,0 +1,52 @@
+head {
+    font-family: 'Gamja Flower', cursive; 
+    text-align: center;
+   
+}
+body {
+    font-family: 'Gamja Flower', cursive;
+    background-color: beige
+    
+}
+.navbar-brand {
+    font-family: 'Gamja Flower', cursive;
+}
+h3 {
+    font-family: 'Gamja Flower', cursive;
+}
+.question1 {
+    font-family: 'Gamja Flower', cursive;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+#start1 {
+    margin-left: 40%;
+}
+#correctcount {
+    margin-left: 15%;
+}
+#wrongcount {
+    margin-left: 15%;
+}
+#time-left {
+    margin-left: 15%;
+}
+.jumboton {
+    margin-top: 10%;
+}
+#picture1 {
+    margin-left: 15%;
+}
+#picture2 {
+    margin-left: 15%;
+}
+#picture3 {
+    margin-left: 15%;
+}
+#picture4 {
+    margin-left: 15%;
+}
+#picture5 {
+    margin-left: 15%;
+}
